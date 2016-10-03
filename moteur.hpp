@@ -1,33 +1,21 @@
 #ifndef MOTEUR_HPP
 #define MOTEUR_HPP
 #include <string>
-
-enum douleur{pulse, brule};
+#include <map>
+enum fait{};
 enum critere{complexite_premisses, plus_premisses, recence_regle, recence_deduit};
 
 class Moteur{
   
 private:
-//   float * temperature;
-//   bool fatigue;
-//   bool * visite_afrique_asie;
-//   char sexe;
-//   unsigned int age;
-//   bool oedeme;
-//   bool chaleur;
-//   douleur d;
-//   int douleur_intensite;
-//   bool rougeur;
-//   bool alteration_fonctionnelle;
-//   //--------------
-//   bool infection;
-  
+    std::map<std::string, bool*> BF;
 public:
   Moteur();
-  bool inflammation();
-  bool infection(bool fatigue, float temperature,bool inflammation);
+  bool inference_inflammation();
+  bool inference_infection(bool *fatigue, bool *inflammation);
   
-  void run(critere c);
+  void run_critere(critere c);
+  void run_paquets();
 };
 
 

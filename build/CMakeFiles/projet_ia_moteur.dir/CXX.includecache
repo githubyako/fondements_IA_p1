@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yako/projects/fondement_p1/main.cpp
+iostream
+-
+moteur.hpp
+/home/yako/projects/fondement_p1/moteur.hpp
+
+/home/yako/projects/fondement_p1/moteur.hpp
+string
+-
+map
+-
+

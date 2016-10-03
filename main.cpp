@@ -1,6 +1,10 @@
 #include <iostream>
+#include "moteur.hpp"
+
 
 int main(int argc, char **argv) {
-    std::cout << "Hello, world!" << std::endl;
+    Moteur m;
+    
+    
     return 0;
 }

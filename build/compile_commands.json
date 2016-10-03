@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yako/projects/fondement_p1/build",
+  "command": "/usr/bin/c++    -g   -std=c++11 -o CMakeFiles/projet_ia_moteur.dir/main.cpp.o -c /home/yako/projects/fondement_p1/main.cpp",
+  "file": "/home/yako/projects/fondement_p1/main.cpp"
+}
+]
