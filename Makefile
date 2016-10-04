@@ -7,23 +7,23 @@ STD			= 	-std=c++11
 RM			=	rm
 
 ## files
-SRC			=	src/main.cpp \
-				src/diagnostic.cpp \
-				src/solver.cpp \
-				src/rule.cpp \
-				src/literal.cpp \
-				src/boolean.cpp \
-				src/true.cpp \
-				src/false.cpp
-OBJ			=	obj/main.o \
-				obj/diagnostic.o \
-				obj/solver.o \
-				obj/rule.o \
-				obj/literal.o \
-				obj/boolean.o \
-				obj/true.o \
-				obj/false.o
-TGT			=	build/projet
+SRC			=	main.cpp \
+				diagnostic.cpp \
+				solver.cpp \
+				rule.cpp \
+				literal.cpp \
+				boolean.cpp \
+				true.cpp \
+				false.cpp
+OBJ			=	main.o \
+				diagnostic.o \
+				solver.o \
+				rule.o \
+				literal.o \
+				boolean.o \
+				true.o \
+				false.o
+TGT			=	projet
 
 
 ## building rules
@@ -35,7 +35,7 @@ $(TGT):	$(OBJ)
 	$(CXX) -o $(TGT) $(OBJ)
 
 ## compiling
-obj/%.o:	src/%.cpp
+%.o:	%.cpp
 	$(CXX) -c $(CFLAGS) $(OFLAGS) $(DEBUG) $(STD) -o $@ $<
 
 ## cleaning
