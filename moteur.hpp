@@ -11,8 +11,8 @@ private:
     std::map<std::string, bool*> BF;
 public:
   Moteur();
-  bool inference_inflammation();
-  bool inference_infection(bool *fatigue, bool *inflammation);
+//   bool inference_inflammation();
+//   bool inference_infection(bool *fatigue, bool *inflammation);
   
   void run_critere(critere c);
   void run_paquets();

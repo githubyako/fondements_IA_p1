@@ -1,7 +1,32 @@
 [
 {
   "directory": "/home/yako/projects/fondement_p1/build",
-  "command": "/usr/bin/c++    -g   -std=c++11 -o CMakeFiles/projet_ia_moteur.dir/main.cpp.o -c /home/yako/projects/fondement_p1/main.cpp",
+  "command": "/usr/bin/c++    -g   -std=c++1y -o CMakeFiles/projet_ia_moteur.dir/boolean.cpp.o -c /home/yako/projects/fondement_p1/boolean.cpp",
+  "file": "/home/yako/projects/fondement_p1/boolean.cpp"
+},
+{
+  "directory": "/home/yako/projects/fondement_p1/build",
+  "command": "/usr/bin/c++    -g   -std=c++1y -o CMakeFiles/projet_ia_moteur.dir/diagnostic.cpp.o -c /home/yako/projects/fondement_p1/diagnostic.cpp",
+  "file": "/home/yako/projects/fondement_p1/diagnostic.cpp"
+},
+{
+  "directory": "/home/yako/projects/fondement_p1/build",
+  "command": "/usr/bin/c++    -g   -std=c++1y -o CMakeFiles/projet_ia_moteur.dir/literal.cpp.o -c /home/yako/projects/fondement_p1/literal.cpp",
+  "file": "/home/yako/projects/fondement_p1/literal.cpp"
+},
+{
+  "directory": "/home/yako/projects/fondement_p1/build",
+  "command": "/usr/bin/c++    -g   -std=c++1y -o CMakeFiles/projet_ia_moteur.dir/moteur.cpp.o -c /home/yako/projects/fondement_p1/moteur.cpp",
+  "file": "/home/yako/projects/fondement_p1/moteur.cpp"
+},
+{
+  "directory": "/home/yako/projects/fondement_p1/build",
+  "command": "/usr/bin/c++    -g   -std=c++1y -o CMakeFiles/projet_ia_moteur.dir/rule.cpp.o -c /home/yako/projects/fondement_p1/rule.cpp",
+  "file": "/home/yako/projects/fondement_p1/rule.cpp"
+},
+{
+  "directory": "/home/yako/projects/fondement_p1/build",
+  "command": "/usr/bin/c++    -g   -std=c++1y -o CMakeFiles/projet_ia_moteur.dir/main.cpp.o -c /home/yako/projects/fondement_p1/main.cpp",
   "file": "/home/yako/projects/fondement_p1/main.cpp"
 }
 ]

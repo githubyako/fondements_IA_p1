@@ -156,6 +156,78 @@ projet_ia_moteur/fast:
 	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/build
 .PHONY : projet_ia_moteur/fast
 
+boolean.o: boolean.cpp.o
+.PHONY : boolean.o
+
+# target to build an object file
+boolean.cpp.o:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/boolean.cpp.o
+.PHONY : boolean.cpp.o
+
+boolean.i: boolean.cpp.i
+.PHONY : boolean.i
+
+# target to preprocess a source file
+boolean.cpp.i:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/boolean.cpp.i
+.PHONY : boolean.cpp.i
+
+boolean.s: boolean.cpp.s
+.PHONY : boolean.s
+
+# target to generate assembly for a file
+boolean.cpp.s:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/boolean.cpp.s
+.PHONY : boolean.cpp.s
+
+diagnostic.o: diagnostic.cpp.o
+.PHONY : diagnostic.o
+
+# target to build an object file
+diagnostic.cpp.o:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/diagnostic.cpp.o
+.PHONY : diagnostic.cpp.o
+
+diagnostic.i: diagnostic.cpp.i
+.PHONY : diagnostic.i
+
+# target to preprocess a source file
+diagnostic.cpp.i:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/diagnostic.cpp.i
+.PHONY : diagnostic.cpp.i
+
+diagnostic.s: diagnostic.cpp.s
+.PHONY : diagnostic.s
+
+# target to generate assembly for a file
+diagnostic.cpp.s:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/diagnostic.cpp.s
+.PHONY : diagnostic.cpp.s
+
+literal.o: literal.cpp.o
+.PHONY : literal.o
+
+# target to build an object file
+literal.cpp.o:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/literal.cpp.o
+.PHONY : literal.cpp.o
+
+literal.i: literal.cpp.i
+.PHONY : literal.i
+
+# target to preprocess a source file
+literal.cpp.i:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/literal.cpp.i
+.PHONY : literal.cpp.i
+
+literal.s: literal.cpp.s
+.PHONY : literal.s
+
+# target to generate assembly for a file
+literal.cpp.s:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/literal.cpp.s
+.PHONY : literal.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -180,6 +252,54 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+moteur.o: moteur.cpp.o
+.PHONY : moteur.o
+
+# target to build an object file
+moteur.cpp.o:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/moteur.cpp.o
+.PHONY : moteur.cpp.o
+
+moteur.i: moteur.cpp.i
+.PHONY : moteur.i
+
+# target to preprocess a source file
+moteur.cpp.i:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/moteur.cpp.i
+.PHONY : moteur.cpp.i
+
+moteur.s: moteur.cpp.s
+.PHONY : moteur.s
+
+# target to generate assembly for a file
+moteur.cpp.s:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/moteur.cpp.s
+.PHONY : moteur.cpp.s
+
+rule.o: rule.cpp.o
+.PHONY : rule.o
+
+# target to build an object file
+rule.cpp.o:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/rule.cpp.o
+.PHONY : rule.cpp.o
+
+rule.i: rule.cpp.i
+.PHONY : rule.i
+
+# target to preprocess a source file
+rule.cpp.i:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/rule.cpp.i
+.PHONY : rule.cpp.i
+
+rule.s: rule.cpp.s
+.PHONY : rule.s
+
+# target to generate assembly for a file
+rule.cpp.s:
+	$(MAKE) -f CMakeFiles/projet_ia_moteur.dir/build.make CMakeFiles/projet_ia_moteur.dir/rule.cpp.s
+.PHONY : rule.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -193,9 +313,24 @@ help:
 	@echo "... list_install_components"
 	@echo "... projet_ia_moteur"
 	@echo "... rebuild_cache"
+	@echo "... boolean.o"
+	@echo "... boolean.i"
+	@echo "... boolean.s"
+	@echo "... diagnostic.o"
+	@echo "... diagnostic.i"
+	@echo "... diagnostic.s"
+	@echo "... literal.o"
+	@echo "... literal.i"
+	@echo "... literal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... moteur.o"
+	@echo "... moteur.i"
+	@echo "... moteur.s"
+	@echo "... rule.o"
+	@echo "... rule.i"
+	@echo "... rule.s"
 .PHONY : help
 
 

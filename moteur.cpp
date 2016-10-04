@@ -56,16 +56,16 @@ void Moteur::run_critere(critere c)
   }
 }
 
-bool Moteur::infection(bool * p1, bool *p2, bool *p3)
-{
-  
-//   bool resultat = 
-}
-
-bool Moteur::inflammation()
-{
-  
-}
+// bool Moteur::infection(bool * p1, bool *p2, bool *p3)
+// {
+//     
+// //   bool resultat = 
+// }
+// 
+// bool Moteur::inflammation()
+// {
+//   
+// }
  // GROUPE 2
  
  bool truc(){

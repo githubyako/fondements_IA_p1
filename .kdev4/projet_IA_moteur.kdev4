@@ -1,3 +1,6 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00 \x00p\x00r\x00o\x00j\x00e\x00t\x00_\x00I\x00A\x00_\x00m\x00o\x00t\x00e\x00u\x00r)
+
 [CMake]
 Build Directory Count=1
 Current Build Directory Index=0
@@ -9,6 +12,27 @@ CMake Binary=/usr/bin/cmake
 Environment Profile=
 Extra Arguments=
 Install Directory=
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=projet_ia_moteur
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00 \x00p\x00r\x00o\x00j\x00e\x00t\x00_\x00I\x00A\x00_\x00m\x00o\x00t\x00e\x00u\x00r\x00\x00\x00 \x00p\x00r\x00o\x00j\x00e\x00t\x00_\x00i\x00a\x00_\x00m\x00o\x00t\x00e\x00u\x00r)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/yako/projects/fondement_p1
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=projet_IA_moteur,projet_ia_moteur
+Use External Terminal=false
+Working Directory=
+isExecutable=false
 
 [Project]
 VersionControlSupport=kdevgit

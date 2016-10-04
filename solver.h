@@ -39,10 +39,10 @@ class Solver
 					for (auto p : r.get_premises() ) // pour chaque prémisse de la règle
 					{
 						
-						if ( std::find ( m_knowledge.begin(), m_knowledge.end(), p->to_string()) == m_knowledge.end() )
+						if ( std::find ( m_knowledge.begin(), m_knowledge.end(), p->to_string()) == m_knowledge.end() ){
 							// si la prémisse n'est pas dans la base de faits
 								dec = false;
-							
+							}
 						if ( dec )
 						{
 							auto c = r.get_conclusion();

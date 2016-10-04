@@ -1,0 +1,3 @@
+1 - nettoyer le code (ex: literal.cpp)
+2 - ya ptet moyen de virer les classes boolean, true et false en les remplaçant par une std::pair<bool, std::string> ou juste une petite struct?
+3 - virer classe moteur

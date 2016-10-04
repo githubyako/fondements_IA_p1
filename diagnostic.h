@@ -39,7 +39,6 @@ class Diagnostic : public Solver
 			premises_r4.insert (new Literal ("malade", true));
 			Rule r4 ("??", premises_r4, new Literal ("sain", false));
 
-				
 
 			insert_rule (r0);
 			insert_rule (r1);
