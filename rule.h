@@ -1,4 +1,5 @@
-#pragma once
+#ifndef RULE_H
+#define RULE_H
 
 #include <set>
 #include "boolean.h"
@@ -60,7 +61,18 @@ class Rule
 		{
 			return ( m_id == r.m_id );
 		}
-
+		friend std::ostream & operator << (std::ostream & os, const Rule & r){
+		  os << "[";
+		  for (auto e : r.get_premises())
+		  {
+			  os << "-(" << *e << ");";
+		  }
+		  os << *r.get_conclusion();
+		  os << "]";
+		  return os; 
+		}
 };
 
-std::ostream & operator << (std::ostream & os, const Rule & r);
+
+
+#endif

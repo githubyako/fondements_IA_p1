@@ -50,7 +50,9 @@ class Boolean
 		virtual ~Boolean() 
 		{}
 		
-		
+		    
+		friend std::ostream & operator << (std::ostream & os, const Boolean & b)
+		{
+			return os << b.to_string();
+		}
 };
-
-std::ostream & operator << (std::ostream & os, const Boolean & b);

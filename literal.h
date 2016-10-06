@@ -44,4 +44,7 @@ class Literal : public Boolean
 		}
 };
 
-std::ostream & operator << (std::ostream & os, const Literal & l);
+std::ostream & operator << (std::ostream & os, const Literal & l)
+{
+	return os << l.to_string();
+}

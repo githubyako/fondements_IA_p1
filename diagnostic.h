@@ -1,7 +1,6 @@
 #pragma once
 
 #include "solver.h"
-#include "rule.h"
 #include "literal.h"
 #include "true.h"
 #include "false.h"

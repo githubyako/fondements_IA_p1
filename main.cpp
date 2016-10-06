@@ -10,11 +10,13 @@ int main (int argc, char * argv[])
 	K.insert ("asthénie");
 	K.insert ("malade");
 
-	Diagnostic d (K);
+	Diagnostic d1 (K);
 
-	d.forward_chaining();
-//     d.backward_chaining("malade");
-	//std::cout << d.backward_chaining ("grippe") << std::endl;
+	d1.forward_chaining();
+	
+	Diagnostic d2 (K);
+	
+	d2.backward_chaining("grippe");
 
 
 	return EXIT_SUCCESS;

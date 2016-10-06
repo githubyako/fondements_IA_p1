@@ -62,6 +62,7 @@ class Solver
 				/**
 				 * AFFICHAGE B.F.
 				 */
+				std::cout << "Knoweledge base after forward chaining:" << std::endl;
 				for (auto k : m_knowledge )
 				{
 					std::cout << k << std::endl;
@@ -76,10 +77,10 @@ class Solver
 		bool backward_chaining (const std::string & conclusion)
 		{
 			bool dem;
-			if ( std::find ( m_knowledge.begin(), m_knowledge.end(), conclusion ) != m_knowledge.end() )
+			if ( std::find ( m_knowledge.begin(), m_knowledge.end(), conclusion ) != m_knowledge.end() ){
 			// la conclusion est dans la base des faits
-				dem = true;
-
+				return true;
+			}
 			for (auto r : m_rules)
 			{
 				auto c = r.get_conclusion();
@@ -108,12 +109,11 @@ class Solver
 				if ( dem )
 					m_knowledge.insert ((dem ? "": "-")+conclusion);
 			}
-		
+			std::cout << "Knoweledge backward_chaining-deduced from the conclusion \"" << conclusion << "\":" << std::endl;
 			for (auto k : m_knowledge)
 			{
 				std::cout << k << std::endl;
 			}
-			
 			return dem;
 		}
 
