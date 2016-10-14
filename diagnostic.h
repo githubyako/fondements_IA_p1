@@ -11,8 +11,8 @@ class Diagnostic : public Solver
 	public:
 
 		
-		Diagnostic (const std::set <std::string> & knowledge):
-			Solver (knowledge, std::set<Rule> ())
+		Diagnostic (const std::set <std::string> & knowledge, critere _critere=aucun):
+			Solver (knowledge, std::set<Rule> (), _critere)
 		{
 			// REGLES A DEFINIR
 			// REGLES DANS FICHIER ??? (ifstream)
@@ -45,7 +45,11 @@ class Diagnostic : public Solver
 			insert_rule (r3);
 			insert_rule (r4);
 
+			addRuleToPacket(0,r0);
+			addRuleToPacket(0,r1);
+			addRuleToPacket(1,r2);
+			addRuleToPacket(1,r3);
+			addRuleToPacket(2,r4);
+
 		}
-
-
 };

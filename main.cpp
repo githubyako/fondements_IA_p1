@@ -11,12 +11,12 @@ int main (int argc, char * argv[])
 	K.insert ("malade");
 
 	Diagnostic d1 (K);
-
+	d1.set_critere(plus_de_premisses);
 	d1.forward_chaining();
 	
-	Diagnostic d2 (K);
+	//Diagnostic d2 (K);
 	
-	d2.backward_chaining("grippe");
+	//d2.backward_chaining("grippe");
 
 
 	return EXIT_SUCCESS;

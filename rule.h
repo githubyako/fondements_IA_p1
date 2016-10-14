@@ -1,5 +1,4 @@
-#ifndef RULE_H
-#define RULE_H
+#pragma once
 
 #include <set>
 #include "boolean.h"
@@ -72,7 +71,3 @@ class Rule
 		  return os; 
 		}
 };
-
-
-
-#endif
